@@ -4,10 +4,9 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-  "dev": "nodemon src/index.js",
-  "start": "node src/index.js",
-  "seed": "node prisma/seed.js",
-  "postinstall": "npm run seed"
+  "dev": "vite",
+  "build": "vite build",
+  "preview": "vite preview"
   },
   "dependencies": {
     "react": "^19.1.0",
